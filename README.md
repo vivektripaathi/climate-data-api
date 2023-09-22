@@ -41,7 +41,7 @@ HOST=__YOUR_DATABASE_HOST__ # ex - localhost
 4. **Create the database manually using PostgreSQL commands:**
 ```bash
 # Create the database (replace <database-name> with your desired name)
-create database weather
+create database weather;
 # Table will be created automatically after running server and data can inserted inside the databse using `rotes`
 ```
 
