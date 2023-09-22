@@ -43,6 +43,7 @@ HOST=__YOUR_DATABASE_HOST__ # ex - localhost
 # Create the database (replace <database-name> with your desired name)
 create database weather
 # Table will be created automatically after running server and data can inserted inside the databse using `rotes`
+```
 
 5. **Start the server:**
 ```bash
