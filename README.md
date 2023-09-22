@@ -31,7 +31,7 @@ cd climate-data-api
 npm install
 ```
 3.Add below environment variables to `.env` file in root of directory: 
-```shell
+```env
 DATABASE_NAME=__YOUR_DATABASE_NAME__ # ex - weather
 USERNAME=__YOUR_DATABASE_USERNAME__ 
 PASSWORD=__YOUR_DATABASE_PASSWORD__
@@ -39,13 +39,13 @@ HOST=__YOUR_DATABASE_HOST__ # ex - localhost
 ```
 
 4. **Create the database manually using PostgreSQL commands:**
-```shell
+```bash
 # Create the database (replace <database-name> with your desired name)
 create database weather
 # Table will be created automatically after running server and data can inserted inside the databse using `rotes`
 
 5. **Start the server:**
-```shell
+```bash
 npm run start
 ```
 
